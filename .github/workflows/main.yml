@@ -1,6 +1,6 @@
 name: "Greeter Reusable Workflow"
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       person-name:
         description: "Name of the person to greet"
